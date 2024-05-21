@@ -15,28 +15,36 @@ airodump-ng -c 3 --bssid <AP_MAC> -w <capture_file> mon0   ## listening to the t
 
 
 ## Opening more than one screen with the "screen" tool;
-
+```bash
   # screen -S test        ## creating a workspace
   # screen -l              ## list actively used screens
   # screen -a -r 13245    ## switch to a specifically selected screen
   # CTRL + a + n          ## connects to the next session
   # CTRL + a + p          ## go back to the previous session
-
-```txt
-    Open a New Screen Session: You start by opening a new screen session by typing screen in the terminal and hitting Enter. This will create a new screen session and switch you to it.
-
-    Detach from the Session: To detach from the current screen session (leaving it running in the background), press Ctrl + A followed by Ctrl + D.
-
-    List Running Sessions: You can list all the running screen sessions by typing screen -ls.
-
-    Resume a Session: To resume a particular session, type screen -r <session_id> where <session_id> is the identifier of the session you want to reconnect to.
-
-    Open Multiple Sessions: To open multiple sessions simultaneously, you can repeat steps 1-4. Each time you create a new session, it will be assigned a unique session ID.
-
-    Switch Between Sessions: While inside a screen session, you can switch between multiple sessions by pressing Ctrl + A followed by " (double quote). This will display a list of active sessions, and you can select the one you want to switch to.
-
-    Close a Session: To close a screen session, ensure you're not inside that session (you can detach if needed), then type exit and press Enter. This will close the current session.
 ```
+
+#### Open a New Screen Session
+You start by opening a new screen session by typing `screen` in the terminal and hitting Enter. This will create a new screen session and switch you to it.
+
+#### Detach from the Session
+To detach from the current screen session (leaving it running in the background), press `Ctrl + A` followed by `Ctrl + D`.
+
+#### List Running Sessions
+You can list all the running screen sessions by typing `screen -ls`.
+
+#### Resume a Session
+To resume a particular session, type `screen -r <session_id>` where `<session_id>` is the identifier of the session you want to reconnect to.
+
+#### Open Multiple Sessions
+To open multiple sessions simultaneously, you can repeat steps 1-4. Each time you create a new session, it will be assigned a unique session ID.
+
+#### Switch Between Sessions
+While inside a screen session, you can switch between multiple sessions by pressing `Ctrl + A` followed by `" (double quote)`. This will display a list of active sessions, and you can select the one you want to switch to.
+
+#### Close a Session
+To close a screen session, ensure you're not inside that session (you can detach if needed), then type `exit` and press Enter. This will close the current session.
+
+
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
