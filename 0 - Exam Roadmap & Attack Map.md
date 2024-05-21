@@ -50,10 +50,10 @@ To close a screen session, ensure you're not inside that session (you can detach
 
 
 
-### Attack Map ###
+### Attack Map WEP ###
 
 
-WEP? or WPA/WPA2?
+WEP
 
 > WEP;
 
@@ -86,19 +86,19 @@ WEP? or WPA/WPA2?
      # Deauthentication Attack
      # Aircrack-ng
 
+### Attack Map WPA/WPA2 ###
 
-> WPA/WPA2
 
-  ## Attack;
+#### Attack;
 
-    # Deauthentication Attack
+Deauthentication Attack
   
-  ## Cracking the network key;
+#### Cracking the network key;
 
-    # with Aircrack-ng
-    # with JTR and Aircrack-ng
-    # with coWPAtty
-    # with Pyrit
+* with Aircrack-ng
+* with JTR and Aircrack-ng
+* with coWPAtty
+* with Pyrit
 
 
 
